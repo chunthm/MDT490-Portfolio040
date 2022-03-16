@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body{
+    font-family: Raleway , Arial, Helvetica, sans-serif;
+    background-color: #f7f2ef;
+}
+
+.grid-container-profile {
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-gap: 10px;
+  }
+  
+  .grid-container>div {
+    font-size: 20px;
+    background-color: #002477;
+  }
+  
+  #header {
+    grid-column: 1 / span 2;
+  }
+  
+  #navbar {
+    margin-top: 1%;
+    float: right;
+    text-align: right;
+    display: inline;
+    background-color: #002477;
+    width: 100%;
+  }
+  
+  ul {
+    list-style-type: none;
+    float: right; 
+  }
+  
+  li {
+    display: inline;
+    padding: 20px;
+    color: #f7f2ef;
+  }
+  /*อย่าลืมแก้สีแนฟบาร์  */
+
+#porfileimg{
+    grid-column: 1 / span 1;
+    
+}
+#aboutme{
+    grid-column: 2 / span 1;
+    margin-right: 250px;
+    margin-top: 100px;
+}
+
+#porfileimg img{
+    width: 50%;
+    margin-left: 250px;
+    margin-top: 100px;
+
+
+}   
+
+

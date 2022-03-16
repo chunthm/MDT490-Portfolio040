@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@500&display=swap');
+body{
+    background-color: #dbd3cc;
+    font-family: Mitr , Arial, Helvetica, sans-serif;
+
+}
+
+#game-container {
+	margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#game-layer {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-top: -15px;
+}
+
+.square {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 3px solid #ffffff;
+}
+
+.red{
+    background-color: #fb598a; 
+}
+.blue{
+    background-color: #3b8eec; 
+}
+
+.yellow{
+    background-color: #ffdb3b; 
+}
+
+legend{
+    background-color: #7b5239;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+fieldset{
+    background-color: #f2d7bf;
+    color: #7b5239;
+    border: 5px solid #7b5239;
+    border-radius: 10px;
+    padding: 25px;
+    padding-bottom: 5px;
+    margin-left: 41.5%;
+    margin-right: 75%;
+    margin-top: 15px;
+}
+
+button#start{
+    background-color: #a76b3d;
+    font-family: Mitr , Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+input#numbox{
+    border-radius: 10px;
+    font-family: Mitr , Arial, Helvetica, sans-serif;
+}
+select#color{
+    background-color: #ffffff;
+    font-family: Mitr , Arial, Helvetica, sans-serif;
+    color: #7b5239;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+div#timerClock{
+    margin-top: 10px;
+    color: #7b5239;
+}

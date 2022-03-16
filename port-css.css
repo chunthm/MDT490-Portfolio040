@@ -1,0 +1,696 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body{
+    font-family: Raleway , Arial, Helvetica, sans-serif;
+    background-color: #cdbda3;
+    margin: 0;
+}
+.grid-container-profile {
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-gap: 10px;
+  }/* ---------------------------------------------------------------------------------ตารางหน้าโปรไฟล์ */
+
+  
+  .grid-container>div {
+    font-size: 20px;
+    background-color: #bf5b04;
+  }
+  
+  #header {
+    grid-column: 1 / span 2;
+    margin-top: 0px;
+  }
+
+  #header a{
+    text-decoration: none;
+    color: #ddb247;
+  }/*  สีอักษรในบาร์ */
+
+  #navbar {
+    margin-top: 1%;
+    float: right;
+    text-align: right;
+    display: inline;
+    background-color: #bf5b04;
+    padding: 15px;
+    width: 100%;
+    margin-top: 0;
+  }/* ----------------------------------------------------------------------------------แถบบาร์ */
+  
+  ul {
+    list-style-type: none;
+    float: right; 
+  }
+  
+  li {
+    display: inline;
+    padding: 20px;
+    color: #ddb247;
+    font-size: 20pt;
+    font-weight: bold;
+  }/* ข้อความในแถบบาร์ */
+
+#porfileimg{
+    grid-column: 1 / span 1;
+    text-align: center;  
+}
+
+#aboutme{
+    grid-column: 2 / span 1;
+    color: #3c4b4d;
+    font-size: 15pt;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+#porfileimg img{
+    width: 50%;
+    margin-top: 25px;
+    box-shadow:  0px 5px 10px 0px #97815b;
+}   
+
+#Motto{
+  grid-column: 1 / span 2;
+  text-align: center;
+  background-color: #ddb247;
+  color: #3c4b4d;
+  font-size: 20pt;
+  font-weight: bold;
+  font-style: italic;
+  padding: 40px;
+  margin-top: 30px;
+}/* คติธรรมประจำใจ */
+
+/* ------------------- ปุ่ม Work ------------------------ */
+.dropbtn {
+  font-family: Raleway , Arial, Helvetica, sans-serif;
+  background-color: #bf5b04;
+  color: #ddb247;
+  padding: 16px;
+  font-size: 20pt;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #cd7e59;
+  font-weight: bold;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-align: left;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #97451e;
+  border-radius: 5px;
+}
+/* --------------------------------------------------------- */
+
+.grid-container-resume{
+  display: grid;
+  grid-template-columns: 5% 30% 30% 30%;
+  grid-gap: 10px;
+}/* ตารางหน้าresume */
+
+.grid-container>div {
+  font-size: 20px;
+  background-color: #bf5b04;
+}
+
+#HeadResume{
+  grid-column: 1 / span 5;    
+  color: #ddb247;
+  background-color: #bf5b04;
+  text-align: center;
+  font-size: 45pt;
+  font-weight: bold;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+#TextResume{
+  grid-column: 2 / span 3;
+  text-align: center;
+  font-size: 20pt;
+  color: #3c4b4d;
+  margin-bottom: 50px;
+}
+
+#Hobby{
+  grid-column: 2 / span 1 ;
+}
+
+
+#TitleHobby{
+  font-weight: bold;
+  font-size: 20pt;
+  color: #ddb247;
+  margin-bottom: 15px;
+}
+
+#HobbyText{
+  font-size: 18pt;
+  text-align: center;
+  background-color: #cd7e59;
+  color: #cdbda3;
+  padding-top: 20px;
+  padding-bottom: 75px;
+  margin-top: -4px;
+  margin-right: 80px;
+  margin-left: 80px;
+  margin-bottom: 100px;
+}
+
+#hobbyimg{
+  width: 50%;
+  margin-left: 25%;
+}
+/* ---------End Hobby-------------- */
+
+#Interesting{
+  grid-column: 3 / span 1 ;
+}
+
+#TitleInterest{
+  font-weight: bold;
+  font-size: 20pt;
+  color: #ddb247;
+  margin-bottom: 15px;
+}
+
+#InterestingText{
+  font-size: 18pt;
+  text-align: center;
+  background-color: #cd7e59;
+  color: #cdbda3;
+  margin-top: -4px;
+  margin-right: 80px;
+  margin-left: 80px;
+  margin-bottom: 100px;
+  padding-top: 20px;
+  padding-bottom: 75px;
+}
+
+#interestimg{
+  width: 50%;
+  margin-left: 25%;
+}
+/* ------------End Interesting------------- */
+
+#Skill{
+  grid-column: 4 / span 1 ;
+}
+
+
+#TitleSkill{
+  font-weight: bold;
+  font-size: 20pt;
+  color: #ddb247;
+  margin-bottom: 15px;
+}
+
+#SkillText{
+  font-size: 18pt;
+  text-align: center;
+  background-color: #cd7e59;
+  color: #cdbda3;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: -4px;
+  margin-right: 80px;
+  margin-left: 80px;
+  margin-bottom: 100px;
+}
+
+#skillimg{
+  width: 50%;
+  margin-left: 25%;
+}
+
+#ContactMe{
+  grid-column: 1 / span 5;
+  color: #bf5b04;
+  background-color: #ddb247;
+  text-align: center;
+  font-size: 20pt;
+  font-weight: bold;
+  padding: 25px;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+#Credit{
+  grid-column: 1 / span 5;
+  color: #bf5b04;
+  text-align: center;
+  font-size: 16pt;
+}
+
+.Facebook{
+  padding: 10px;
+}
+
+#TelNum{
+  padding: 10px;
+}
+
+#LineID{
+  padding: 10px;
+}
+
+a:link{
+    color: #bf5b04;
+}
+a:visited{
+    color: #cd7e59;
+}
+/* -----------------------------------------------------------------------จบหน้า About-------------------- */
+.grid-container-workpj{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-gap: 1px;
+  background-color: #e2d7bf;
+}/* ตาราง works */
+
+.grid-container>div {
+  font-size: 20px;
+}
+
+#tdtext{
+  grid-column: 1 / span 1;
+  font-size: 40pt;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  color: #bf5b04;
+  background-color: #ddb247;
+  padding-top: 170px;
+}
+
+#flower01{
+  grid-column: 2 / span 1;
+  width: 100%;
+}
+
+#flower02{
+  grid-column: 3 / span 1;
+  width: 100%;  
+}
+
+#flower03{
+  grid-column: 4 / span 1;
+  width: 100%; 
+}
+/* -----------จบโมเดล----------- */
+#charactext{
+  grid-column: 1 / span 1;
+  font-size: 40pt;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  color: #bf5b04;
+  background-color: #ddb247;
+  padding-top: 170px;
+  margin-top: 50px;
+}
+
+#ariel{
+  grid-column: 2 / span 1;
+  width: 150%;
+  margin-top: 50px;
+}
+
+#aurora{
+  grid-column: 3 / span 1;
+  width: 150%;
+  margin-left: 190px;
+  margin-top: 50px;
+}
+
+#fanartext{
+  grid-column: 1 / span 1;
+  font-size: 40pt;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  color: #bf5b04;
+  background-color: #ddb247;
+  padding-top: 170px;
+  padding-bottom: 100px;
+  margin-top: 50px;
+}
+
+#fanart{
+  grid-column: 2 / span 3;
+  width: 100%;
+  margin-top: 50px;
+}
+
+#Animation{
+  grid-column: 1 / span 1;
+  font-size: 40pt;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  color: #bf5b04;
+  background-color: #ddb247;
+  padding-top: 170px;
+  padding-bottom: 100px;
+  margin-top: 50px;
+}
+
+#animate{
+  grid-column: 2 / span 3;
+  background-image: url(animate.png);
+  background-position: middle;
+  text-align: center;
+  font-size: 30pt;
+  font-weight: bold;
+  padding-top: 170px;
+  margin-top: 50px;
+}
+/* -------------------------------------------------------------------เริ่มหน้า ASM--------------------- */
+.grid-container-asm{
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-gap: 10px;
+  background-color: #cdbda3;
+}/* ตาราง asm */
+
+.grid-container>div {
+  font-size: 20px;
+}
+
+.ApplePie{
+  display: grid;
+  grid-template-columns: auto;
+  text-align: center;
+  color: #3c4b4d;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#ApplePiepic{
+  grid-column: 2 / span 1;
+  background-position: center;
+  border-radius: 10px;
+  padding: 5px;
+}
+/* --------------------------- */
+.Blog{
+  display: grid;
+  grid-template-columns: auto;
+  text-align: center;
+  color: #3c4b4d;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#Blogpic{
+  grid-column: 1 / span 1;
+  background-position: center;
+  border-radius: 10px;
+  padding: 5px;
+}
+/* ------------------------------ */
+.RegisterandLogin{
+  display: grid;
+  grid-template-columns: auto;
+  text-align: center;
+  color: #3c4b4d;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#Registpic{
+  grid-column: 1 / span 1;
+  background-position: center;
+  border-radius: 10px;
+  padding: 5px;
+}
+/* ------------------------------ */
+.SquareGame{
+  display: grid;
+  grid-template-columns: auto;
+  text-align: center;
+  color: #3c4b4d;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#SquareGamepic{
+  grid-column: 2 / span 1;
+  background-position: center;
+  border-radius: 10px;
+  padding: 5px;
+}
+/* ----------------------------- */
+/*--- Go to Combo Responsive--- */
+/* ----------Tablet----------- */
+@media only screen and (max-width: 768px){
+  .grid-container {
+    grid-template-columns: auto ;
+}
+#navbar{
+  grid-column: 1 / span 2;
+}
+#header {
+    grid-column: 1 / span 2;
+}
+#porfileimg{
+    grid-column: 1 / span 2;  
+}
+#aboutme{
+    grid-column: 1 / span 2;
+    padding-left: 100px;
+}
+#Motto{
+    grid-column: 1 / span 2;
+}
+#HeadResume{
+    grid-column: 1 / span 5; 
+}
+#TextResume{
+    grid-column: 1 / span 5;
+}
+#Hobby{
+    grid-column: 1 / span 5;
+}
+#Interesting{
+    grid-column: 1 / span 5;
+}
+#Skill{
+    grid-column: 1 / span 5;
+}
+#ContactMe{
+    grid-column: 1 / span 5;
+}
+#Credit{
+    grid-column: 1 / span 5;
+}
+/* ----------------------- */
+#tdtext{
+    grid-column: 1 / span 4;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#flower01{
+    grid-column: 1 / span 2;
+}
+#flower02{
+    grid-column: 3 / span 2;
+}
+#flower03{
+    grid-column: 2 / span 2;
+}
+#charactext{
+    grid-column: 1 / span 4;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#ariel{
+    grid-column: 1 / span 2;
+    width: 100%;
+    margin: 0;
+}
+#aurora{
+  grid-column: 3 / span 2;
+  width: 100%;
+  margin: 0;
+}
+#fanartext{
+    grid-column: 1 / span 4;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#fanart{
+    grid-column: 1 / span 4;
+    margin: 0;
+}
+#Animation{
+  grid-column: 1 / span 4;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#animate{
+    grid-column: 1 / span 4;
+    margin: 0;
+    padding-bottom: 100px;
+}
+/* --------------------------- */
+.ApplePie{
+    grid-column: 1 / span 2;
+    width: 100%;
+}
+.Blog{
+  grid-column: 1 / span 2;
+  width: 100%;
+}
+.RegisterandLogin{
+  grid-column: 1 / span 2;
+  width: 100%;
+}
+.SquareGame{
+  grid-column: 1 / span 2;
+  width: 100%;
+}
+}
+/* ----------------------------------------iPhone11 Screen-------------------------------------------- */
+@media only screen and (max-width: 414px){
+  .grid-container {
+    grid-template-columns: auto ;
+}
+#navbar{
+  grid-column: 1 / span 2;
+}
+#header {
+    grid-column: 1 / span 2;
+}
+#porfileimg {
+    grid-column: 1 / span 1; 
+}
+#aboutme{
+    grid-column: 1 / span 2;
+    font-size: 16pt;
+    padding-left: 100px;
+}
+#Motto{
+    grid-column: 1 / span 2;
+    font-size: 16pt;
+}
+#HeadResume{
+    grid-column: 1 / span 5;
+    font-size: 36pt; 
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#TextResume{
+    grid-column: 1 / span 5;
+    font-size: 16pt;
+}
+#Hobby{
+    grid-column: 1 / span 5;
+}
+#Interesting{
+    grid-column: 1 / span 5;
+}
+#Skill{
+    grid-column: 1 / span 5;
+}
+#ContactMe{
+    grid-column: 1 / span 5;
+}
+#Credit{
+    grid-column: 1 / span 5;
+}
+/* ----------------------- */
+#tdtext{
+    grid-column: 1 / span 4;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#flower01{
+    grid-column: 2 / span 2;
+}
+#flower02{
+    grid-column: 2 / span 2;
+}
+#flower03{
+    grid-column: 2 / span 2;
+}
+#charactext{
+    grid-column: 1 / span 4;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#ariel{
+    grid-column: 1 / span 4;
+    width: 100%;
+    margin: 0;
+}
+#aurora{
+  grid-column: 1 / span 4;
+  width: 100%;
+  margin: 0;
+}
+#fanartext{
+    grid-column: 1 / span 4;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#fanart{
+    grid-column: 1 / span 4;
+    margin: 0;
+}
+#Animation{
+  grid-column: 1 / span 4;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#animate{
+    grid-column: 1 / span 4;
+    margin: 0;
+    padding-bottom: 100px;
+}
+/* --------------------------- */
+
+.ApplePie{
+    grid-column: 1 / span 2;
+    width: 100%;
+}
+.Blog{
+  grid-column: 1 / span 2;
+  width: 100%;
+}
+.RegisterandLogin{
+  grid-column: 1 / span 2;
+  width: 100%;
+}
+.SquareGame{
+  grid-column: 1 / span 1;
+  width: 100%;
+}
+}

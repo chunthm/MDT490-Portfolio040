@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body{
+    font-family: Raleway , Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #e2d7bf;
+    
+}
+
+#frame{
+    color: #fffaf7;
+    background-color: #457373;
+    border: 10px solid #ddb247;
+    border-radius: 15px;
+    padding: 40px;
+    max-width: 60%;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+#topic1{
+    font-size: 30pt;
+    text-align: left;
+    font-weight: bold;
+}
+
+#comment1{
+    color: #fffaf7;
+    font-size: 20pt;
+    text-align: center;
+    margin: 25px;
+}
+
+#comment2{
+    color: #fffaf7;
+    font-size: 20pt; 
+    text-align: right;
+    margin: 50px;
+}
+
+#text1{
+    margin-top: 50px;
+    margin-left: 55px;
+    font-family: Raleway , Arial, Helvetica, sans-serif;
+    color: #e2d7bf;
+    font-size: 22px;
+    padding: 6px 10px;
+    box-sizing: border-box;
+    border: 0;
+    background-color: #cd7e59;   
+    border-radius: 5px;
+}
+
+#Post{
+    color: #ddb247;
+    background-color: #457373;
+    font-weight: bold;
+    font-size: 16pt;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#Clear{
+    color: #ddb247;
+    background-color: #457373;
+    font-weight: bold;
+    font-size: 16pt;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
